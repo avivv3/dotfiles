@@ -9,9 +9,9 @@
 set -e
 
 # Configuration
-REPO_DIR="$HOME/workspace/platform"
+REPO_DIR="$HOME/workspace/<repo-name>"
 MISSIONS_DIR="$HOME/workspace/missions"
-GIT_AUTHOR="avivv3"  # Your GitHub username for filtering commits
+GIT_AUTHOR="<your-github-username>"  # Your GitHub username for filtering commits
 BASE_BRANCH="master"  # Base branch for diffs (master or main)
 TARGET_FILE="$REPO_DIR/.claude/CLAUDE.md"
 TEMP_FILE=$(mktemp)
