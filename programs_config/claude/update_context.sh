@@ -9,6 +9,7 @@
 set -e
 
 # Configuration
+# TODO: Update these to match your setup
 REPO_DIR="$HOME/workspace/<repo-name>"
 MISSIONS_DIR="$HOME/workspace/missions"
 GIT_AUTHOR="<your-github-username>"  # Your GitHub username for filtering commits
